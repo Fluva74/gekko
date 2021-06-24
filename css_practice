@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gekko</title>
+    <style>
+        body {
+            background: #a0c4ff;
+        }
+
+        .container {
+            height: 200px;
+            width: 175px;
+            background: #76c893;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 6em;
+            border-radius: 6em 6em 5em 5em;
+            margin-top: 3em;
+            overflow: hidden;
+        }
+
+        .face {
+            height: 80px;
+            width: 150px;
+            background: #ffd6ba;
+            border-radius: 5em;
+            margin-top: 6em;
+            position: absolute;
+        }
+
+        .nose {
+            height: 45px;
+            width: 45px;
+            background: #eaac8b;
+            border-radius: 50%;
+            margin-top: 2em;
+            position: absolute;
+        }
+
+        .nose2 {
+            height: 45px;
+            width: 45px;
+            background: #ffd6ba;
+            border-radius: 50%;
+            margin-top: 1.65em;
+            position: absolute;
+        }
+
+        .top-lip {
+
+            height: 9px;
+            width: 80px;
+            background: #583101;
+            border-radius: 10% 10% 45% 45%;
+            margin-top: 7em;
+            position: absolute;
+            overflow: hidden;
+        }
+
+        .teeth {
+            height: 100px;
+            width: 100px;
+            background: white;
+            border-radius: 50%;
+            margin-top: -5.5em;
+            margin-left: -0.6em;
+        }
+
+        .left-eye {
+            height: 50px;
+            width: 45px;
+            background: #faf3dd;
+            border-radius: 25px 12px 15px 10px;
+            margin-top: -60px;
+            margin-left: -70px;
+            position: absolute;
+        }
+
+        .left-iris {
+            height: 25px;
+            width: 25px;
+            background: #80ed99;
+            border-radius: 50%;
+            border: 2px solid black;
+            align-items: center;
+            margin-top: 18px;
+            margin-left: 10px;
+        }
+
+        .left-pupil {
+            height: 15px;
+            width: 15px;
+            background: black;
+            border-radius: 50%;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        .left-light {
+            height: 8px;
+            width: 8px;
+            background: white;
+            border-radius: 50%;
+            margin-top: 4px;
+            margin-left: 5px;
+        }
+
+
+
+        .right-eye {
+            height: 50px;
+            width: 45px;
+            background: #faf3dd;
+            border-radius: 12px 25px 10px 15px;
+            margin-top: -60px;
+            margin-left: 65px;
+        }
+
+        .right-iris {
+            height: 25px;
+            width: 25px;
+            background: #80ed99;
+            border-radius: 50%;
+            border: 2px solid black;
+            align-items: center;
+            margin-top: 18px;
+            margin-left: 5px;
+        }
+
+        .right-pupil {
+            height: 15px;
+            width: 15px;
+            background: black;
+            border-radius: 50%;
+            margin-top: -21px;
+            margin-left: 11px;
+        }
+
+        .right-light {
+            height: 8px;
+            width: 8px;
+            background: white;
+            border-radius: 50%;
+            margin-top: -15px;
+            margin-left: 16px;
+        }
+
+        .left-brow {
+            width: 35px;
+            height: 8px;
+            background: #208b3a;
+            margin-top: 1em;
+            margin-left: 8.3em;
+            border-radius: 40px 0 0 0;
+        }
+
+        .right-brow {
+            width: 35px;
+            height: 8px;
+            background: #208b3a;
+            margin-top: -0.5em;
+            margin-left: 12.3em;
+            border-radius: 0 40px 0 0;
+        }
+
+        .fin {
+            width: 20px;
+            height: 40px;
+            background: #208b3a;
+            margin-top: -14em;
+            margin-left: 10.8em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="face"></div>
+        <div class="nose"></div>
+        <div class="nose2"></div>
+
+
+        <div class="top-lip">
+            <div class="teeth"></div>
+        </div>
+
+
+
+
+        <div class="left-eye">
+            <div class="left-iris">
+                <div class="left-pupil">
+                    <div class="left-light"></div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="right-eye">
+            <div class="right-iris"></div>
+            <div class="right-pupil"></div>
+            <div class="right-light"></div>
+
+        </div>
+
+
+
+
+
+
+
+    </div>
+    <div class="fin"></div>
+    <div class="left-brow"></div>
+    <div class="right-brow"></div>
+
+</body>
+
+</html>
